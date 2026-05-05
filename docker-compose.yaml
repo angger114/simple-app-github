@@ -1,0 +1,5 @@
+services:
+  webserver:
+    image: ghcr.io/angger114/nginx-anggerrb
+    ports:
+      - "8080:80"
